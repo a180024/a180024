@@ -10,6 +10,7 @@ export PATH="/usr/bin/:$PATH"
 
 # Aliases
 alias vim="nvim"
+alias dev="sh ~/dev-tmux.sh"
 
 # Shortcuts
 function gd() {

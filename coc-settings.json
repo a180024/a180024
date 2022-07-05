@@ -4,7 +4,7 @@
   "python.linting.pylintEnabled": true,
   "python.linting.lintOnSave": true,
   "python.formatting.provider": "black",
-  "python.formatting.blackPath": "/Users/davin/Library/Python/3.8/lib/python/site-packages",
+  "python.formatting.blackPath": "/Users/davin/Library/Python/3.8/bin/black",
   "eslint.options" : {
     "env": {
         "browser": true,

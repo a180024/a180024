@@ -129,7 +129,7 @@ let g:NERDCompactSexyComs = 1
 "emmet
 let g:user_emmet_leader_key=','
 " coc nvim
-let g:python3_host_prog = '/usr/local/bin/python3'
+let g:python3_host_prog = '/usr/bin/python3'
 " TextEdit might fail if hidden is not set.
 set hidden
 " Some servers have issues with backup files, see #649.
