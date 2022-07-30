@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi there 👋 I’m currently interested in cryptocurrencies.
 
 <!--
 **a180024/a180024** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,3 +14,5 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+![Github stats](https://github-readme-stats.vercel.app/api?username=a180024&theme=tokyonight&show_icons=true&count_private=true)
