@@ -1,4 +1,4 @@
-### Hi there 👋 I’m currently interested in cryptocurrencies.
+### Hi there 👋 
 
 <!--
 **a180024/a180024** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
