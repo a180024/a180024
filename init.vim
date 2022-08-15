@@ -93,6 +93,7 @@ Plug 'tpope/vim-surround'
 Plug 'tomlion/vim-solidity'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'EdenEast/nightfox.nvim'
+Plug 'puremourning/vimspector'
 call plug#end()
 
 
@@ -245,3 +246,6 @@ nmap /]c <Plug>(coc-git-nextconflict)
 nmap /gc <Plug>(coc-git-commit)
 " coc-prettier
 command! -nargs=0 Prettier :CocCommand prettier.forceFormatDocument
+" puremourning/vimspector
+let g:vimspector_enable_mappings = 'HUMAN'
+

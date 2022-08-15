@@ -71,3 +71,5 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Syntax-Highlighting
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+# Auto-suggestions
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh

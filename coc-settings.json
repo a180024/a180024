@@ -1,7 +1,7 @@
 {
   "python.pythonPath": "/usr/bin/python3",
   "python.linting.enabled": true,
-  "python.linting.pylintEnabled": true,
+  "python.linting.flake8Enabled": true,
   "python.linting.lintOnSave": true,
   "python.formatting.provider": "black",
   "python.formatting.blackPath": "/Users/davin/Library/Python/3.8/bin/black",
