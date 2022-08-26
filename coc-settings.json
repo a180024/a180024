@@ -11,5 +11,5 @@
         "node": true
     }
   },
-  "coc.preferences.formatOnSaveFiletypes": ["python", "javascript", "javascriptreact", "typescript", "typescriptreact", "go"]
+  "coc.preferences.formatOnSaveFiletypes": ["javascript", "javascriptreact", "typescript", "typescriptreact"]
 }

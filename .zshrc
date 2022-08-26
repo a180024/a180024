@@ -46,11 +46,6 @@ zstyle ':completion:*:*:git:*' script ~/.git-completion.bash
 fpath=(~/.zsh $fpath)
 autoload -Uz compinit && compinit
 
-# Z
-if command -v brew >/dev/null 2>&1; then
-	#Load rupa's z if installed
- 	[ -f $(brew --prefix)/etc/profile.d/z.sh ] && source $(brew --prefix)/etc/profile.d/z.sh
-fi
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/davin/.oh-my-zsh"
 # Standard plugins can be found in $ZSH/plugins/
@@ -61,15 +56,20 @@ fzf
 z
 fd
 zsh-autosuggestions
+zsh-history-substring-search
 )
-
 # Powerlevel10k
 ZSH_THEME="powerlevel10k/powerlevel10k"
+# Z
+if command -v brew >/dev/null 2>&1; then
+	#Load rupa's z if installed
+ 	[ -f $(brew --prefix)/etc/profile.d/z.sh ] && source $(brew --prefix)/etc/profile.d/z.sh
+fi
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
 # Syntax-Highlighting
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-# Auto-suggestions
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+# Search-history
+source /Users/davin/.oh-my-zsh/plugins/history-substring-search/history-substring-search.zsh
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
