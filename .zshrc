@@ -60,6 +60,7 @@ zsh-history-substring-search
 )
 # Powerlevel10k
 ZSH_THEME="powerlevel10k/powerlevel10k"
+source ~/.oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme
 # Z
 if command -v brew >/dev/null 2>&1; then
 	#Load rupa's z if installed
