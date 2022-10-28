@@ -22,7 +22,7 @@ function gd() {
 set -o vi
 
 # Python
-export PATH="/Users/davin/Library/Python/3.8/bin:$PATH"
+export PATH="/Library/Frameworks/Python.framework/Versions/3.11/bin:$PATH"
 
 # Node
 export PATH="/Users/davin/.nvm/version/v17.3.0/bin/node:$PATH"
@@ -33,7 +33,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"  # This loads nvm bash_completion 
 
 # Homebrew
-eval $(/opt/homebrew/bin/brew shellenv)
+# eval $(/opt/homebrew/bin/brew shellenv)
 
 # Go
 export GO111MODULE=auto
